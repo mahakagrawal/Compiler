@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compiler API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=-6">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center><u><h3>Write a program to print factorial of a number.</h3></u></center><br>
+    <div class="flex">
+    <div class="container">
+        <div class="row">
+        <label style="float:left;font-size:1rem;">Type you code..</label>
+        <select id="langId">
+        <option value="4">JavaScript</option>
+        <option value="7">C</option>
+        <option value="77">C++</option>
+        <option value="8">Java</option>
+        <option value="0">Python3</option>
+        </select>
+        </div>
+        <div class="editor">
+            <textarea rows="20" id="codearea"></textarea>
+        </div>
+    </div>
+    <div class="output" id="output">
+    </div>
+    </div>
+    <center><button class="btn" id="compile">Compile</button></center>
+    <script src="script.js"></script>
+</body>    
+</html>
